@@ -6,7 +6,7 @@ class MP3Importer
   end
   
   def files
-    @files = Dir.entries(@path).grep()
+    @files = Dir.entries(@path).grep(.mp3)
   end
   
   def import
